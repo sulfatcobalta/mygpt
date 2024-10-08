@@ -1,0 +1,153 @@
+
+
+
+
+
+
+
+
+
+
+.dialogBox{
+    position: relative;
+    width: 90%;
+    height: 88vh;
+    background-color: white;
+    margin: auto;
+    border-radius: 3px;
+    overflow-x: auto;
+    overflow-x: hidden;
+    
+
+}
+
+.dialogBox::-webkit-scrollbar {
+    width: 1.5vw; /* Изящные полосы прокрутки. 😋 */
+  }
+
+.dialogBox::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 10px; /* За модной округлостью. 😎 */
+  }
+
+
+.message-write-container {
+    padding-top: 1vh;
+}
+
+
+
+.messages-box{
+    position: relative;
+    width: 95%;
+    
+    margin-left: auto;
+    border-radius: 9px 9px 0px 9px;
+    /* background-color: rgb(202, 202, 202); */
+    word-wrap: break-word;
+
+}
+
+.messages-box-to{
+    position: relative;
+    width: 95%;
+    
+    margin-left: auto;
+    border-radius: 9px 9px 0px 9px;
+    background-color: rgb(202, 202, 202);
+    word-wrap: break-word;
+    
+
+}
+
+.messages-text{
+    padding-left: 2vh;
+    padding-top: 0.4vh;
+    padding-bottom: 0.7vh;
+    padding-right: 2vw;
+    font-size: 17px;
+
+    font-size: 17px;
+    
+
+}
+
+.message-container{
+    position: relative;
+    padding-top: 0.5vh;
+    padding-right: 1vh;
+    
+}
+
+.text-field {
+    resize: none;
+    border: none;
+    width: 72vw;
+    height: 6vh;
+    border-radius: 3px;
+    
+
+    
+}
+
+.text-field::-webkit-scrollbar {
+    width: 1.5vw; /* Изящные полосы прокрутки. 😋 */
+  }
+
+.text-field::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    border-radius: 10px; /* За модной округлостью. 😎 */
+  }
+
+.text-field:focus {
+    
+    background-color: #fff;
+    border: none;
+    outline: none;
+    
+  }
+
+.message-write-box {
+    display: flex; /* Используем Flexbox для выравнивания */
+    align-items: center; /* Выравниваем по центру по вертикали */
+    width: 90%;
+    height: 6vh;
+    /* background-color: white; */
+    margin: auto;
+    border-radius: 3px;
+
+}
+
+.send-button-div{
+
+    padding-left: 1.5vw;
+
+}
+
+.send-button{
+    position: relative;
+    
+    
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 6vh;
+    width: 15vw;
+    cursor: pointer;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
+
+.send-button:active{
+    background-color: grey;
+    color: black;
+}
+
